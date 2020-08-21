@@ -9,7 +9,7 @@ A very handy action if you want to generate resumes/cover letters using your por
 
 ```
 steps:
-  - name: Convert https://imbhargav5.com to PDF
+  - name: Convert https://github.com to PDF
     uses: "imbhargav5/puppeteer-pdf-action@master"
     with:
       url: https://github.com
