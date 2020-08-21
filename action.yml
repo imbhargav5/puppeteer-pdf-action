@@ -1,0 +1,16 @@
+name: 'Puppeteer URL to PDF action'
+description: 'Create a PDF from URL using puppeteer'
+inputs:
+  url:
+    required: true  
+    description: 'The URL'
+  output-file-path:
+    required: true
+    description: 'The path to write the PDF file to'  
+    default: 'output.pdf'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'message-square'  
+  color: 'gray-dark'

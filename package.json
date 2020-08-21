@@ -1,0 +1,11 @@
+{
+  "name": "puppeteer-pdf-action",
+  "description": "Get PDF version of a webpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "puppeteer": "^5.2.1"
+  }
+}
